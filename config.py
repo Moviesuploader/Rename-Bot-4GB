@@ -3,10 +3,10 @@ import os
 
 
 # Required Variables Config
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN = int(os.environ.get("ADMIN", ""))
+API_ID = int(os.environ.get("API_ID", "7502883"))
+API_HASH = os.environ.get("API_HASH", "0ee8bcdce7734db98d4fba72dd62c5e0")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7521565481:AAENo0Wezvl8r-brMpv9e5QmZF_9ROgpC8k")
+ADMIN = int(os.environ.get("ADMIN", "7717381109 "))
 
 
 # Premium 4GB Renaming Client Config
@@ -14,17 +14,17 @@ STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
 
 # Log & Force Channel Config
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "btmx_zone")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002496018375"))
 
 
 # Mongo DB Database Config
-DATABASE_URL = os.environ.get("DATABASE_URL", "")
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "madflixbotz")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://avinashii890:saini890@avinashii890.hm8r975.mongodb.net/?retryWrites=true&w=majority&appName=Avinashii890")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "avinashii890")
 
 
 # Other Variables Config
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/ad48ac09b1e6f30d2dae4.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/f4f85b3aaf6b6b1e4817a.jpg")
 
 
 
